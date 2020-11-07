@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+const gitDefinition = "git"
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+const gitHubDefinition = "it is a repository for storing and sharing code"
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+const init = {
+    description: "creates a new reppsitory",
+    code: " git init"
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,15 +44,20 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+const clone = {
+    description: "creates a copy of code from a link",
+    code: "git clone *insert link*"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
     Create an object called 'status' with 'description' and 'code' properties 
     following the guidelines above to describe the status command.
 */
-
-//CODE HERE
+const status = {
+description: "tells you if you have any changes you need to commit",
+code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +65,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+const add = {
+    description: "adds changes to the staging area",
+    code: "git add  ."
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +76,10 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+const commit = {
+    description: "commits index files to the repository",
+    code: "git commit -m"
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +87,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+const addRemote = {
+    description: "adds a new remote",
+    code: "git remote add"
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +98,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+const push = {
+    description: "pushes repositpry to github",
+    code: "git push"
+    }

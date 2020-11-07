@@ -1,17 +1,16 @@
 //////////////////PROBLEM 1////////////////////
 /* Create a variable called 'myName' with a value that is your name as a string. */
-
-//CODE HERE 
+const myName = "Bryan"
 
 //////////////////PROBLEM 2////////////////////
 /* Create a variable called 'faveNum' with a value that is your favorite number. */
 
-//CODE HERE
+const faveNum = 7
 
 //////////////////PROBLEM 3////////////////////
 /* Create a variable called 'lovesCode' and assign it a boolean value. */
 
-//CODE HERE
+const lovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -19,7 +18,9 @@
   The function should return the sum of the two parameters.
 */
 
-//CODE HERE
+function sum(num1, num2){
+  return num1 + num2
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -29,7 +30,14 @@
   If 'data' is a falsy value, return a false boolean.
 */
 
-//CODE HERE
+function trueOrFalse(data){
+  if (data===0) {
+    return false
+  } else {
+    return true
+  }
+}
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -39,7 +47,7 @@
   If the number is even, return the string: 'the number is even'.
 */
 
-//CODE HERE
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -48,7 +56,7 @@
   "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 */
 
-//CODE HERE
+function iLove(name, love)
 
 
 //////////////////PROBLEM 8////////////////////
